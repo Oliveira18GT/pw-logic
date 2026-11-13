@@ -1,5 +1,4 @@
-print("Vamos converter temperatura?")
-print("=== CONVERSOR DE TEMPERATURA ===")
-celsius = float(input("Temperatura em Celsius: "))
-fahrenheit = (celsius * 9/5) + 32
-print(f"{celsius}ºC = {fahrenheit:.1f}ºF")
+print("=== CONVERSOR DE KM PARA MILHAS ===")
+km = float(input("Distância em KM: "))
+milhas = km / 1.609
+print(f"{km} km = {milhas:.2f} milhas")
