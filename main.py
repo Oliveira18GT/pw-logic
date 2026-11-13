@@ -1,9 +1,5 @@
-ano_atual = 2026
-print("Cadastro da pessoa 1")
-nome1 = input("Digite seu nome:")
-ano1 = int(input("Digite seu ano de nascimento: "))
-idade1 = ano_atual - ano1
-ano100_1 = ano1 + 100
-print(f"{nome1} tem (ou vai fazer) {idade1} anos.")
-print(f"{nome1} vai completar 100 anos no ano de {ano100_1}.")
-print("------------------------------------------")
+print("Vamos converter temperatura?")
+print("=== CONVERSOR DE TEMPERATURA ===")
+celsius = float(input("Temperatura em Celsius: "))
+fahrenheit = (celsius * 9/5) + 32
+print(f"{celsius}ºC = {fahrenheit}ºF")
