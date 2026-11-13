@@ -1,9 +1,16 @@
-bytes = float(input("Digite o tamanho em bytes: "))
-KB = bytes / 1024
-print(f"{bytes} bytes = {KB:.2f} KB")
-KB = float(input("Digite o tamanho em KB: "))
-MB = KB / 1024
-print(f"{KB} KB = {MB:.2f} MB")
-MB = float(input("Digite o tamanho em MB: "))
-GB = MB / 1024
-print(f"{MB} MB = {GB:.2f} GB")
+print("=== CONVERSOR DE ARMAZENAMENTO ===")
+
+bytes = float(input("Digite a quantidade em bytes: "))
+kb = float(input("Digite a quantidade de KB: "))
+mb = float(input("Digite a quantidade de MB: "))
+
+resultado_kb = bytes / 1024
+resultado_mb = kb / 1024
+resultado_gb = mb / 1024
+
+print("=== RESULTADOS ===")
+
+print(f"{bytes} bytes = {resultado_kb:.2f} KB")
+print(f"{kb} KB = {resultado_mb:.2f} MB")
+print(f"{mb} MB = {resultado_gb:.2f} GB")
+print("=== FIM DO PROGRAMA ===")
