@@ -1,4 +1,9 @@
-print("=== CONVERSOR DE KM PARA MILHAS ===")
-km = float(input("Distância em KM: "))
-milhas = km / 1.609
-print(f"{km} km = {milhas:.2f} milhas")
+bytes = float(input("Digite o tamanho em bytes: "))
+KB = bytes / 1024
+print(f"{bytes} bytes = {KB:.2f} KB")
+KB = float(input("Digite o tamanho em KB: "))
+MB = KB / 1024
+print(f"{KB} KB = {MB:.2f} MB")
+MB = float(input("Digite o tamanho em MB: "))
+GB = MB / 1024
+print(f"{MB} MB = {GB:.2f} GB")
